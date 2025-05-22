@@ -35,8 +35,7 @@ ENV/
 .DS_Store
 
 # Project specific
-uploads/
-logs/
+
 *.log
 .coverage
 htmlcov/
@@ -61,9 +60,7 @@ mongod.lock
 coverage.xml
 *.cover
 
-# Images folder (keep directory but not contents)
-images/*
-!images/.gitkeep
+
 
 # Windows specific
 Thumbs.db

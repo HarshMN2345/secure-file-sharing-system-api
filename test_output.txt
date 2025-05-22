@@ -1,0 +1,19 @@
+========================================= test session starts ==========================================
+platform win32 -- Python 3.11.0, pytest-7.4.3, pluggy-1.6.0
+cachedir: .pytest_cache
+rootdir: C:\Users\harsh\wincode\ezworkstest\file-sharing-system\secure_file_sharing_api
+plugins: anyio-4.9.0, asyncio-0.21.1
+asyncio: mode=Mode.STRICT
+collected 9 items                                                                                       
+
+test_main.py::test_signup PASSED                                                                  [ 11%]
+test_main.py::test_signup_duplicate_email PASSED                                                  [ 22%]
+test_main.py::test_login_before_verification PASSED                                               [ 33%]
+test_main.py::test_verify_email PASSED                                                            [ 44%]
+test_main.py::test_login_after_verification PASSED                                                [ 55%]
+test_main.py::test_upload_file PASSED                                                             [ 66%]
+test_main.py::test_upload_invalid_file_type PASSED                                                [ 77%]
+test_main.py::test_list_files PASSED                                                              [ 88%]
+test_main.py::test_download_file PASSED                                                           [100%]
+
+========================================== 9 passed in 4.80s =========================================== 

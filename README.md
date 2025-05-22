@@ -3,6 +3,12 @@
 A secure API-based file sharing system built with FastAPI and MongoDB that enables operations users to upload files while allowing client users to securely download them.
 
 ![Test Passing](images/image.png)
+<!-- 
+To add the actual test pass image:
+1. Run the tests with: pytest test_main.py -v
+2. Take a screenshot of the passed tests
+3. Save the screenshot as images/image.png 
+-->
 
 ## Features
 
