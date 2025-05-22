@@ -2,7 +2,7 @@
 
 A secure API-based file sharing system built with FastAPI and MongoDB that enables operations users to upload files while allowing client users to securely download them.
 
-![Test Passing](images/image.png)
+![Test Passing](secure_file_sharing_system_api/images/image.png)
 
 ## Features
 
