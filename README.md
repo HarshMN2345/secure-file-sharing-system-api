@@ -74,11 +74,29 @@ All tests pass successfully, ensuring the API meets all security and functionali
    ```bash
    pip install -r requirements.txt
    ```
-3. Start MongoDB server
+
+3. Setup MongoDB:
+   
+   ### Option 1: Using Docker (Recommended)
+   ```bash
+   # Pull the MongoDB image
+   docker pull mongo:latest
+   
+   # Run MongoDB container
+   docker run -d -p 27017:27017 --name mongodb mongo:latest
+   
+   # To stop the container when done
+   # docker stop mongodb
+   ```
+   
+   ### Option 2: Install MongoDB locally
+   Follow the [official MongoDB installation guide](https://docs.mongodb.com/manual/installation/)
+
 4. Run the application:
    ```bash
    uvicorn main:app --reload
    ```
+
 5. Run tests:
    ```bash
    pytest -v
